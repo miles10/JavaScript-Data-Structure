@@ -39,5 +39,8 @@ $ git log --pretty=oneline
 $ git reset --hard HEAD^
 查看txt里面的内容
 $ cat readme.txt
-回到指定的一个，数字为之前的$ git log --pretty=oneline产生的数字
+回到指定的一个，数字为之前的$ git log --pretty=oneline产生的数字，数字只用取版本号的前几位即可
 $ git reset --hard 3628164
+查看每一次命令，结果中有每一次的版本号，可以根据这个实现回到每一次的内容
+$ git reflog
+git中有暂存区的概念，意味着git add时先将文件放入暂存区，然后git commit将文件放入当前分支
