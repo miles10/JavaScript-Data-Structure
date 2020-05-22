@@ -1,5 +1,5 @@
-# GIT
-## JavaScript-Data-Structure
+# JavaScript-Data-Structure
+
 ### 01 Stack
 
 
