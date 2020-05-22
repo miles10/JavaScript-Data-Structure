@@ -1,4 +1,5 @@
-let Queue = require('./QueueClass.js');
+let Queue = require('./QueueClass.js').Queue;
+let PriorityQueue = require('./QueueClass.js').PriorityQueue;
 
 let Queue_temp = new Queue()
 Queue_temp.enqueue("a")
@@ -14,4 +15,14 @@ console.log(Queue_temp.size())
 
 
 console.log("----------------------")
-console.log("十进制转二进制")
+console.log("优先级队列")
+let PQ_temp = new PriorityQueue()
+PQ_temp.enqueue("a",0)
+PQ_temp.enqueue("b",2)
+PQ_temp.enqueue("e",4)
+PQ_temp.print()
+console.log( PQ_temp.isEmpty())
+PQ_temp.enqueue("c",3)
+
+PQ_temp.print()
+console.log(PQ_temp.size())
