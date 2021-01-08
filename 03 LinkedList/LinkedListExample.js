@@ -1,4 +1,4 @@
-let LinkedList = require('./LinkedListClass.js').LinkedList;
+import {LinkedList} from './LinkedListClassES6.js';
 
 let list = new LinkedList()
 list.append("0")
