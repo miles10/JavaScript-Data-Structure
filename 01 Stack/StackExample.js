@@ -1,4 +1,4 @@
-let Stack = require('./StackClass.js');
+import {Stack} from './StackClassES6.mjs';
 
 let stack_temp = new Stack()
 stack_temp.push("a")
