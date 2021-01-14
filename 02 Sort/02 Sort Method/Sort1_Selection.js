@@ -1,7 +1,7 @@
 import {SortBasic} from '../01 Basic example/SortBasic.js';
 
-// 继承 SortBasic 中的 less big exch show isSorted 方法
 // 选择排序法
+// 继承 SortBasic 中的 less big exch show isSorted 方法
 class Selection extends SortBasic 
 {
     sort(a)
